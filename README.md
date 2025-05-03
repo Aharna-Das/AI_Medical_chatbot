@@ -37,3 +37,28 @@ Make sure to install all required Python packages:
 
 ```bash
 pip install -r requirements.txt
+```
+🔐 Environment Variables
+Create a .env file in your project root with the following content:
+```bash
+HF_TOKEN=your_huggingface_access_token
+Replace your_huggingface_access_token with your actual Hugging Face token (must have access to inference endpoints).
+```
+📁 Project Structure
+```bash
+.
+├── mainchatbot.py                # Main Streamlit chatbot script
+├── .env                          # Environment config for Hugging Face token
+├── requirements.txt              # Python dependencies
+└── vectorstore/
+    └── db_faiss/                 # FAISS vector DB directory
+```
+📝 Note: Ensure the FAISS vector store (db_faiss) is initialized before starting the app.
+
+▶️ Usage
+Start the chatbot locally using Streamlit:
+
+```bash
+streamlit run mainchatbot.py
+```
+This will open a browser window at http://localhost:8501 with the chat interface.
