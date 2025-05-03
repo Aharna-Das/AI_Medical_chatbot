@@ -18,9 +18,6 @@ A conversational AI-based assistant for medical consultations. Built using Strea
 - **Follow-up Question Suggestions**  
   Dynamically generates follow-up medical questions to guide the consultation process.
 
-- **CSV File Prediction**  
-  Allows users to upload CSV files (e.g., containing patient metrics) for prediction using an external ML API.
-
 - **Medical Report Generator**  
   Automatically generates a formal medical report at the end of the consultation.
 
