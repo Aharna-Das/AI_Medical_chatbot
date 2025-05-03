@@ -1,0 +1,7 @@
+streamlit
+requests
+langchain
+transformers
+huggingface_hub
+python-dotenv
+faiss-cpu
