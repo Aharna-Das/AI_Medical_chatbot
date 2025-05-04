@@ -22,7 +22,6 @@ A conversational AI-based assistant for medical consultations. Built using Strea
 
 - **Medical Report Generator**  
   Automatically generates a formal medical report at the end of the consultation.
-  ![image](https://github.com/user-attachments/assets/e636f8bc-70de-43f8-bf69-7845909d6441)
 
 ---
 
