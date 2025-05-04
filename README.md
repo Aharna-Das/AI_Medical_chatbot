@@ -2,6 +2,8 @@
 
 A conversational AI-based assistant for medical consultations. Built using Streamlit, Hugging Face Transformers, Langchain, FAISS, and integrates a file-based prediction system with automated medical report generation.
 
+![image](https://github.com/user-attachments/assets/8332cdb5-1fff-469c-ab15-bf064786df26)
+
 ---
 
 ## 🚀 Features
